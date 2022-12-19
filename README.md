@@ -77,4 +77,7 @@ localhost:5000/api/v1/pesan # pemesanan oleh customer (POST)
 ```
 
 ##### screenshot
+![photo1671474285](https://user-images.githubusercontent.com/108688272/208495966-7efcc21a-a874-4351-bfa1-6568e32a9997.jpeg)
+
+Dan ketika customer memesan maka quota yang berada di tabel jadwal akan berkurang 1, bisa dilihat di gambar diatas ini
 
