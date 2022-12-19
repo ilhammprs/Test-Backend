@@ -11,7 +11,7 @@
 ## INSTALASI
 ubah configurasi database pada file config/config.json <br>
 
-## Install Package, Migrasi database, SEEDER data DAN RUNNING NODEJS
+## Install Package, Migrasi database
 ```sh
 npm install
 npx sequelize-cli db:migrate
