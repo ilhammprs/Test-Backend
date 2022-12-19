@@ -16,14 +16,7 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: {
           name: "idJadwal",
         },
-      });
-      
-      // pesan.hasOne(models.status, {
-      //   as: "status",
-      //   foreignKey: {
-      //     name: "idStatus",
-      //   },
-      // });
+      });   
 
     }
   }
