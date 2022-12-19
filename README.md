@@ -5,13 +5,13 @@
 - Mysql driver : [mysql2](https://www.npmjs.com/package/mysql2).
 - Promise-based ORM : [Sequalize](https://www.npmjs.com/package/sequelize).
 - Data validator : [https://www.npmjs.com/package/joi.
-- Utility [nodemon](https://www.npmjs.com/package/nodemon)
-- authentication [jwt](https://www.npmjs.com/package/jsonwebtoken)
+- Utility : [nodemon](https://www.npmjs.com/package/nodemon)
+- authentication : [jwt](https://www.npmjs.com/package/jsonwebtoken)
 
 ## INSTALASI
 ubah configurasi database pada file config/config.json <br>
 
-## Install Package, Migrasi database, SEEDER data DAN RUNNING NODEJS
+## Install Package, Migrasi database
 ```sh
 npm install
 npx sequelize-cli db:migrate
@@ -77,4 +77,7 @@ localhost:5000/api/v1/pesan # pemesanan oleh customer (POST)
 ```
 
 ##### screenshot
+![photo1671474285](https://user-images.githubusercontent.com/108688272/208495966-7efcc21a-a874-4351-bfa1-6568e32a9997.jpeg)
+
+Dan ketika customer memesan maka quota yang berada di tabel jadwal akan berkurang 1, bisa dilihat di gambar diatas ini
 
