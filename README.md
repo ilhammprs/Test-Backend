@@ -4,7 +4,7 @@
 
 - Mysql driver : [mysql2](https://www.npmjs.com/package/mysql2).
 - Promise-based ORM : [Sequalize](https://www.npmjs.com/package/sequelize).
-- Data validator : (https://www.npmjs.com/package/joi).
+- Data validator :[joi] (https://www.npmjs.com/package/joi).
 - Utility : [nodemon](https://www.npmjs.com/package/nodemon)
 - authentication : [jwt](https://www.npmjs.com/package/jsonwebtoken)
 
